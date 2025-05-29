@@ -1,8 +1,8 @@
 
 fun main() {
-    val x = 8
-    val y =7
-    val areNumberTheSame = x == y
-    println(areNumberTheSame)
-    println("Is x an even number? ${x%2==0}")
+    println("Enter a number:")
+    val input = readln()
+    val inputAsInteger = input.toInt()
+    val isEven = inputAsInteger % 2 == 0
+    println("Is the number even? $isEven")
 }
